@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Speedy Legal Client",
+    "slug": "speedy-legal-client",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xarcomain.speedylegalclient"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.xarcomain.speedylegalclient"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f7fada8-d64a-4584-b789-9377f683cdb1"
+      }
+    },
+    "owner": "xarco.main",
+    "updates": {
+      "url": "https://u.expo.dev/5f7fada8-d64a-4584-b789-9377f683cdb1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
