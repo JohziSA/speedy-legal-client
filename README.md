@@ -1,3 +1,5 @@
+![Speedy Legal](banner.jpg)
+
 # Speedy Legal
 
 Expo client for Speedy Legal.
